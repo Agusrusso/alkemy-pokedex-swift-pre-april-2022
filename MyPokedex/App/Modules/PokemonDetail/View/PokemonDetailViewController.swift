@@ -2,7 +2,7 @@
 //  PokemonDetailViewController.swift
 //  MyPokedex
 //
-//  Created by Jesus Nieves on 20/04/2022.
+//  Created by Agustin Russo on 20/04/2022.
 //
 
 import UIKit
@@ -61,7 +61,7 @@ class PokemonDetailViewController: UIViewController {
         let aLabel = UILabel()
         aLabel.translatesAutoresizingMaskIntoConstraints = false
         aLabel.textColor = .white
-        aLabel.font = UIFont.systemFont(ofSize: 28)
+        aLabel.font = UIFont.systemFont(ofSize: 40)
         aLabel.textAlignment = .center
         return aLabel
     }()
@@ -90,8 +90,8 @@ class PokemonDetailViewController: UIViewController {
             backgroudImage.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             backgroudImage.topAnchor.constraint(equalTo: view.topAnchor),
             
-            pokemonImage.heightAnchor.constraint(equalToConstant: 140),
-            pokemonImage.widthAnchor.constraint(equalToConstant: 140),
+            pokemonImage.heightAnchor.constraint(equalToConstant: 200),
+            pokemonImage.widthAnchor.constraint(equalToConstant: 200),
             pokemonImage.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             pokemonImage.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             
@@ -99,8 +99,8 @@ class PokemonDetailViewController: UIViewController {
             pokemonName.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             pokemonName.topAnchor.constraint(equalTo: pokemonImage.bottomAnchor, constant: 22),
             
-            pokemonBackground.heightAnchor.constraint(equalToConstant: 140),
-            pokemonBackground.widthAnchor.constraint(equalToConstant: 140),
+            pokemonBackground.heightAnchor.constraint(equalToConstant: 200),
+            pokemonBackground.widthAnchor.constraint(equalToConstant: 200),
             pokemonBackground.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             pokemonBackground.centerYAnchor.constraint(equalTo: view.centerYAnchor),
                 

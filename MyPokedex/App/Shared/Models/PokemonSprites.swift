@@ -2,7 +2,7 @@
 //  PokemonSprits.swift
 //  MyPokedex
 //
-//  Created by Jesus Nieves on 23/04/2022.
+//  Created by Agustin Russo on 23/04/2022.
 //
 
 import Foundation

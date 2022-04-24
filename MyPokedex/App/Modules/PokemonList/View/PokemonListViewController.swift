@@ -2,7 +2,7 @@
 //  PokemonListViewController.swift
 //  MyPokedex
 //
-//  Created by Jesus Nieves on 20/04/2022.
+//  Created by Agustin Russo on 20/04/2022.
 //
 
 import UIKit
@@ -47,7 +47,7 @@ class PokemonListViewController: UIViewController {
     private func setupView(){
         // Agregamos el tableview al viewcontroller
         view.addSubview(tableView)
-        title = "Lista de pokemones"
+        title = "Lista de Pokemons"
         navigationController?.navigationBar.prefersLargeTitles = true
         tableView.dataSource = self
         tableView.delegate = self
@@ -100,7 +100,7 @@ extension PokemonListViewController: UITableViewDataSource {
         }
         
         let pokemon = viewModel?.getPokemon(at: indexPath.row)
-        cell.name = pokemon?.name
+        cell.name = pokemon?.name.uppercased()
         
         return cell
     }

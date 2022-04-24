@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  MyPokedex
 //
-//  Created by Jesus Nieves on 20/04/2022.
+//  Created by Agustin Russo on 20/04/2022.
 //
 
 import UIKit
